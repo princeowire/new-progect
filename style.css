@@ -1,0 +1,291 @@
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  .attribution {
+     font-size: 11px; 
+    text-align: center; 
+  }
+
+    .attribution a { 
+      color: hsl(228, 53%, 50%); 
+    }
+
+    .sec-1 {
+      height: 60vh;
+      background-image: url("/images/bg-header-desktop.png");
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 50px;
+      padding: 50px;
+    }
+
+    .btn-1 {
+      background-color: #4CAF50;
+       width: 200px;
+       border-radius: 30px;
+       padding: 15px;
+       border: none;
+    }
+    .btn-2 {
+      background-color: #008CBA;
+        width: 200px;
+        border-radius: 30px;
+        padding: 15px;
+        border: none;
+    }
+    
+    .button {
+        display: flex;
+        gap: 10px;
+        margin: 30px;
+    }
+
+    .button :hover {
+        cursor: pointer;
+    }
+    h1 {
+        text-align: center;
+        color: rgb(66, 66, 77);
+        font-size: 40px;
+    }
+    h2 {
+         color: rgb(66, 66, 77);
+         font-size: 29px;
+    }
+    .sec-2 {
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+       margin-top: 10em;
+    }
+    .sec-3 {
+      display:flex;
+      justify-content: space-between;
+      gap: 40px;
+      margin-top: 10em;
+      align-items: center;
+    }
+    .image-computer {
+     width: 700px; 
+     margin-right: 100px;
+    }
+    .sec-3 div {
+       width: 600px; 
+      align-items: center;
+    }
+
+    .small-p {
+      margin-bottom: 50px;
+      width: 50%;
+      text-align: left;
+    }
+    p {
+      color: gray;
+      text-align: center;
+      font-size: 15px;
+    }
+    .sec-4 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      padding-top: 50px;
+      margin-top: 10em;
+    }
+    
+    .sec-5 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10em;
+    }
+    .sec-6 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 10em;
+    }
+
+    .btm-ico {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      width: 230px;
+    }
+
+    .ico {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin: 50px;
+    }
+    .icon {
+     height: 35px;
+    }
+    .sec-7 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10em;
+    }
+    .btm-logo {
+      height: 50px;
+      margin: 70px;
+      display: flex;
+
+    }
+    .top-logo {
+      margin-top: 10em;
+    }
+    footer {
+      background-color: silver;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10%;
+      height: 120px;
+    }
+    .icon-2 {
+      /* width: 20px;  */
+      display: flex;
+    }
+     a :hover{
+      color: #4CAF50;
+    }
+    .one {
+      width: 700px;
+    }
+    .two {
+      margin: 10px;
+    }
+    .s-logo {
+      margin: 10px;
+      display: flex;
+    }
+     footer :hover {
+      color: #4CAF50;
+      cursor: pointer;
+     }
+     
+       @media only screen and (orientation: portrait)
+        {
+          .sec-3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+        }
+        .image-computer {
+        width: 350px;
+        margin: 20px;
+        }
+        .sec-1 {
+         background-image: url("/images/bg-header-mobile.png");
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         justify-content: center;
+        }
+        .sec-3 div {
+          display: flex;
+         justify-content: center;
+         flex-direction: column;
+
+       }
+       h1 {
+        text-align: center;
+        font-size: 20px;
+       }
+      h2 {
+         color: rgb(66, 66, 77);
+         font-size: 15px;
+      }
+      h3 {
+         font-size: 13px;
+      }
+      .device-img {
+        width: 350px;
+      }
+      .btn-1 {
+         width: 350px;
+      }
+      .btn-2 {
+          width: 350px;
+      }
+      
+      .button {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          margin: 30px;
+      }
+  
+      .button :hover {
+          cursor: pointer;
+      }
+      footer {
+      background-color: silver;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10%;
+      height: 120px;
+    }
+    .sec-7 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .ico {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    p {
+      text-align: center;
+    }
+    .sec-4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .sec-6 {
+      display: flex;
+      flex-direction: column;
+    }
+    footer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 10%;
+      height: 100%;
+    }
+    
+    .icon-2 {
+     display: flex;
+    }
+      }
